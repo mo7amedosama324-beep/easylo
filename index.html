@@ -124,42 +124,31 @@
             </div>
         </section>
 
-        <!-- About/Guide Section -->
+        <!-- About Section -->
         <section class="about-section">
             <div class="container">
-                <div class="about-grid">
-                    <div class="about-image">
-                        <img src="imgs/about.png" alt="Guide Projects" onerror="this.src='https://via.placeholder.com/500x500'">
-                    </div>
-                    <div class="about-text">
-                        <h2>We guide projects and organizations in making the right decisions.</h2>
-                        <span class="section-line"></span>
-                        <p>Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost. The brochure must grab a viewer’s attention and hold it long enough to deliver the pertinent information.</p>
-                        
-                        <div class="progress-bars">
-                            <div class="progress-item">
-                                <div class="progress-label">
-                                    <span>Monthly recurring revenue</span>
-                                    <span>80%</span>
-                                </div>
-                                <div class="progress-bg"><div class="progress-fill" style="width: 80%"></div></div>
-                            </div>
-                            <div class="progress-item">
-                                <div class="progress-label">
-                                    <span>Customer acquisition cost</span>
-                                    <span>50%</span>
-                                </div>
-                                <div class="progress-bg"><div class="progress-fill" style="width: 50%"></div></div>
-                            </div>
-                            <div class="progress-item">
-                                <div class="progress-label">
-                                    <span>Number of customers</span>
-                                    <span>65%</span>
-                                </div>
-                                <div class="progress-bg"><div class="progress-fill" style="width: 65%"></div></div>
-                            </div>
+                <div class="about-wrapper">
+                    <!-- Left side with image & green box -->
+                    <div class="about-img-box">
+                        <img src="imgs/about1.jpg" alt="Family using laptop">
+                        <div class="satisfaction-box">
+                            <h2>99%</h2>
+                            <p>Customer Satisfaction</p>
                         </div>
-                        <a href="#" class="btn-solid">LEARN MORE</a>
+                    </div>
+                    
+                    <!-- Right side content -->
+                    <div class="about-content">
+                        <h2>We guide projects and<br>organizations in making the<br>right decisions.</h2>
+                        <p class="about-desc">Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost. The brochure must grab a viewer's attention and hold it long enough to deliver the pertinent information.</p>
+                        
+                        <ul class="about-list">
+                            <li>Monthly recurring revenue</li>
+                            <li>Customer acquisition cost</li>
+                            <li>Number of customers</li>
+                        </ul>
+                        
+                        <a href="#" class="btn-learn-more">LEARN MORE</a>
                     </div>
                 </div>
             </div>
@@ -171,37 +160,54 @@
                 <div class="section-title">
                     <h2>Why choose us?</h2>
                     <span class="section-line"></span>
-                    <p>The brochure must grab a viewer’s attention and hold it long<br>enough to deliver the pertinent information.</p>
+                    <p>The brochure must grab a viewer's attention and hold it long<br>enough to deliver the pertinent information.</p>
                 </div>
                 <div class="features-grid">
+                    <!-- Feature 1 -->
                     <div class="feature-card">
                         <div class="icon">
-                            <!-- SVG Placeholder for Quick apply -->
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 8v-2a2 2 0 0 0 -4 0v7h-1.5a1.5 1.5 0 0 0 -1.5 1.5v.5l3 6h5.5c1.5 0 2.5 -1 2.5 -2.5v-4l-3 -3.5v-3z"></path>
+                                <path d="M10 8a2 2 0 1 1 4 0"></path>
+                            </svg>
                         </div>
                         <h3>Quick apply</h3>
                         <p>Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost.</p>
                     </div>
+
+                    <!-- Feature 2 -->
                     <div class="feature-card">
                         <div class="icon">
-                            <!-- SVG Placeholder for Online & Secure -->
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10v-5l-8-3-8 3v5c0 6 8 10 8 10z"></path>
+                                <polyline points="9 12 11 14 15 10"></polyline>
+                            </svg>
                         </div>
                         <h3>Online & Secure</h3>
-                        <p>Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost.</p>
+                        <p>Tools such as a profit simulator and tax simulator calculator show the showvalue of your stock options and exercise cost.</p>
                     </div>
+
+                    <!-- Feature 3 -->
                     <div class="feature-card">
                         <div class="icon">
-                            <!-- SVG Placeholder for Just time -->
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
                         </div>
                         <h3>Just time</h3>
                         <p>Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost.</p>
                     </div>
+
+                    <!-- Feature 4 -->
                     <div class="feature-card">
                         <div class="icon">
-                            <!-- SVG Placeholder for Low interest -->
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                                <path d="M14.5 9.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"></path>
+                                <path d="M12.5 14.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"></path>
+                                <path d="M9 15l6-6"></path>
+                            </svg>
                         </div>
                         <h3>Low interest</h3>
                         <p>Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost.</p>
@@ -210,10 +216,130 @@
             </div>
         </section>
 
+        <!-- Latest News / Blog Section -->
+        <section class="latest-news">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest News</h2>
+                    <span class="section-line"></span>
+                </div>
+                
+                <div class="news-grid">
+                    <!-- News Card 1 -->
+                    <div class="news-card">
+                        <div class="news-img">
+                            <img src="imgs/blog1.png" onerror="this.src='imgs/blog1.jpg'" alt="Blog Image 1">
+                        </div>
+                        <div class="news-content">
+                            <span class="date">20 March 2021</span>
+                            <a href="#"><h3>What are my options worth and the cost to exercise</h3></a>
+                            <p>Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost.</p>
+                        </div>
+                    </div>
+
+                    <!-- News Card 2 -->
+                    <div class="news-card">
+                        <div class="news-img">
+                            <img src="imgs/blog2.png" onerror="this.src='imgs/blog2.jpg'" alt="Blog Image 2">
+                        </div>
+                        <div class="news-content">
+                            <span class="date">20 March 2021</span>
+                            <a href="#"><h3>From start to finish, we were acquired within 30-days</h3></a>
+                            <p>Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost.</p>
+                        </div>
+                    </div>
+
+                    <!-- News Card 3 -->
+                    <div class="news-card">
+                        <div class="news-img">
+                            <img src="imgs/blog3.png" onerror="this.src='imgs/blog3.jpg'" alt="Blog Image 3">
+                        </div>
+                        <div class="news-content">
+                            <span class="date">20 March 2021</span>
+                            <a href="#"><h3>We'll connect you with the right people to start</h3></a>
+                            <p>Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <!-- Back to top button -->
-    <a href="#" class="back-to-top">&#8593;</a>
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand & About -->
+                <div class="footer-widget brand-widget">
+                    <div class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10c98f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        <span>EasyLo.</span>
+                    </div>
+                    <p>Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-widget">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Tips & Tricks</a></li>
+                    </ul>
+                </div>
+
+                <!-- Solution -->
+                <div class="footer-widget">
+                    <h3>Solution</h3>
+                    <ul>
+                        <li><a href="#">Air freight</a></li>
+                        <li><a href="#">Ocean freight</a></li>
+                        <li><a href="#">Large projects</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-widget newsletter-widget">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe newsletter to get updates.</p>
+                    <form class="newsletter-form" action="#">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                        <a href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                        <a href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>Copyright ©2026 All rights reserved | This template is made with <span style="color:#10c98f;">&#10084;</span> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </a>
+
 </body>
 
 </html>
